@@ -13,7 +13,7 @@ import cucumber.api.CucumberOptions;
 //import cucumber.api.java.en.When;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(features="src/test/resources/features/feature1.feature",glue="",tags={"@selenium"},format="html")
+@CucumberOptions(features="src/test/resources/features/feature1.feature",glue="",tags={"@selenium"},format={"json:reportskirangoogletest.json"})
 public class runner extends AbstractTestNGCucumberTests {
 	
 //	WebDriver driver ;
